@@ -1,14 +1,19 @@
 // App.js
 import React from 'react';
-import { SafeAreaView } from 'react-native';
+import { SafeAreaView, Text } from 'react-native';
 import LoginPage from './Components/LoginPage';
+import WelcomePage from './Components/WelcomePage';
+import HomePage from './Components/HomePage';
+import SignUpPage from './Components/SignUpPage';
+
 
 
 const App = () => {
   return (
-    <SafeAreaView style={{ flex: 1 }}>
-      <LoginPage />
-    </SafeAreaView>
+    
+      <WelcomePage/>
+
+  
   );
 };
 
